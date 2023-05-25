@@ -1,10 +1,10 @@
 <!--
-title: 'AWS Simple HTTP Endpoint example in NodeJS'
-description: 'This template demonstrates how to make a simple REST API with Node.js running on AWS Lambda and API Gateway using the traditional Serverless Framework.'
+title: 'AWS Simple HTTP Endpoint example in Python'
+description: 'This template demonstrates how to make a simple REST API with Python running on AWS Lambda and API Gateway using the traditional Serverless Framework.'
 layout: Doc
 framework: v2
 platform: AWS
-language: nodeJS
+language: Python
 authorLink: 'https://github.com/serverless'
 authorName: 'Serverless, inc.'
 authorAvatar: 'https://avatars1.githubusercontent.com/u/13742415?s=200&v=4'
@@ -49,7 +49,7 @@ $ code .
 #### Estruturar o código
 
 - Criar o diretório "src" e mover o arquivo "handler.js" para dentro dele
-- Renomear o arquivo "handler.js" para "hello.js"
+- Renomear o arquivo "handler.py" para "hello.py"
 - Atualizar o código 
 ```
 const hello = async (event) => {
